@@ -14,8 +14,8 @@
   },
   "autoload": {
     "psr-4": {
-      "epii\\orm\\": "../src/",
-      "think\\": "../src/think"
+      "epii\\orm\\": "src/",
+      "think\\": "src/think/"
     }
   }
 }
