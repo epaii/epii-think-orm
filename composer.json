@@ -1,0 +1,20 @@
+{
+  "name": "epii/think-orm",
+  "description": "think-orm 的兼容性处理,及常用方法",
+  "authors": [
+    {
+      "name": "MrRen Epii",
+      "email": "543169072@qq.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "topthink/think-orm": ">=V2.0.25"
+  },
+  "autoload": {
+    "psr-4": {
+      "epii\\app\\": "src/"
+    }
+  }
+}
