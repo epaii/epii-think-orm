@@ -6,9 +6,9 @@
  * Time: 3:17 PM
  */
 
-namespace think;
+namespace epii\orm;
 
-class Db extends \think\facade\Db
+class Db extends \think\Db
 {
 
 }
