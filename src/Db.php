@@ -24,10 +24,10 @@ class Db extends \think\Db
             if ($result) \think\Db::commit();
 
         } catch (\Exception $e) {
-            \think\Db::rollback();
+
 
         } catch (\Throwable $e) {
-            \think\Db::rollback();
+
 
         }
         if (!$result)
