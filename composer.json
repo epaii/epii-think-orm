@@ -15,6 +15,9 @@
     "psr-4": {
       "epii\\orm\\": "src/",
       "think\\": "src/think/"
-    }
+    },
+    "files": [
+      "src/think/config.php"
+    ]
   }
 }
